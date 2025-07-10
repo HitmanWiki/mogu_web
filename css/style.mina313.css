@@ -502,7 +502,7 @@ body::after {
 }
 
 .menu__link--dark>span>span {
-    color: #0052fe
+    color: #080808
 }
 
 .icon-menu {
@@ -712,7 +712,7 @@ body::after {
 }
 
 .footer__decor img {
-    width: 100%
+    width: 70%
 }
 
 ::-webkit-scrollbar {
