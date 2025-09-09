@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700,800,900,700italic&amp;display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700,800,900,700italic&display=swap);
 
 @font-face {
     font-family: SweetieBubbleGum;
@@ -374,7 +374,7 @@ body::after {
     width: 4.1875rem;
     border-radius: 50%;
     height: 4.1875rem;
-    /* background-color: #0046fd; */
+    background-color: #ff9e49;
     border: .1875rem solid #fff
 }
 
@@ -484,7 +484,7 @@ body::after {
 }
 
 .menu__link--mochi>span {
-    color: #0046fd;
+    color: #ff9e49;
     text-shadow: 0 .25rem 0 #000, .0625rem .25rem 0 #000, .0625rem -.0625rem 0 #000, -.0625rem .0625rem 0 #000, -.0625rem -.0625rem 0 #000;
     font-family: SweetieBubbleGum;
     font-style: normal;
@@ -502,7 +502,7 @@ body::after {
 }
 
 .menu__link--dark>span>span {
-    color: #080808
+    color: #f56221
 }
 
 .icon-menu {
@@ -573,7 +573,7 @@ body::after {
 }
 
 .footer__column-item.active {
-    color: #0052fe
+    color: #f56221
 }
 
 .footer__social {
@@ -712,7 +712,7 @@ body::after {
 }
 
 .footer__decor img {
-    width: 70%
+    width: 100%
 }
 
 ::-webkit-scrollbar {
@@ -722,7 +722,7 @@ body::after {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #0046fd;
+    background-color: #ff9e49;
     border: .0625rem solid #fff;
     border-radius: 1.25rem
 }
@@ -1210,7 +1210,6 @@ body::after {
     height: 100%
 }
 
-
 .hero__container {
     position: relative;
     z-index: 2;
@@ -1424,11 +1423,11 @@ body::after {
 }
 
 p.orange span {
-    color: #0052fe !important
+    color: #f56221 !important
 }
 
 span.orange {
-    color: #0052fe !important
+    color: #f56221 !important
 }
 
 .buy-mochi {
@@ -1583,7 +1582,7 @@ span.orange {
 .content-buy-mochi__background {
     position: absolute;
     inset: 0;
-    background-color: #0046fd
+    background-color: #ff9e49
 }
 
 .content-buy-mochi__title {
@@ -1781,17 +1780,18 @@ span.orange {
     line-height: normal
 }
 
-.base {
+/* .base {
     position: relative;
-    z-index: 1
-}
+    z-index: 1;
 
-.base::before {
+} */
+
+/* .base::before {
     content: "";
     position: absolute;
     z-index: 0;
     inset: 0;
-    background-color: #0f2c75
+    background-color: #0520e7
 }
 
 .base::after {
@@ -1801,12 +1801,13 @@ span.orange {
     inset: 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#0413e0), color-stop(80%, #1f07fa), to(rgba(3, 35, 179, 0)));
     background: linear-gradient(180deg, #1b06dd 0, #2f05c9 80%, rgba(34, 13, 224, 0) 100%)
-}
+} */
 
-.base__container {
+/* .base__container {
     position: relative;
-    z-index: 2
-}
+    z-index: 2;
+
+} */
 
 .base__decor-item {
     position: absolute;
@@ -2546,7 +2547,7 @@ span.orange {
 }
 
 .top-how-to-buy__button.active {
-    background-color: #000;
+    background-color: #032181;
     color: #fff
 }
 
@@ -2852,7 +2853,7 @@ span.orange {
 }
 
 .book-top-how-to-buy__item-title span {
-    color: #0052fe
+    color: #f56221
 }
 
 .book-top-how-to-buy__item-text {
@@ -2998,15 +2999,15 @@ span.orange {
     pointer-events: none;
     width: 100%;
     height: calc(200% - 3.75rem);
-    top: -100%
+    /* top: -100% */
 }
 
 .bottom-how-to-buy__bacground i {
     position: absolute;
     z-index: 2;
     inset: 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0413e0), color-stop(80%, #1f07fa), to(rgba(3, 35, 179, 0)));
-    background: linear-gradient(180deg, #1b06dd 0, #2f05c9 80%, rgba(34, 13, 224, 0) 100%)
+    background: -webkit-gradient(linear, left top, left bottom, from(#090de9), color-stop(20%, #0526e2), to(rgba(39, 6, 226, 0)));
+    background: linear-gradient(180deg, #0626b8 0, #0b3cc2 20%, rgba(255, 251, 242, 0) 100%)
 }
 
 .bottom-how-to-buy__bacground img {
@@ -3054,7 +3055,7 @@ span.orange {
 .bottom-how-to-buy__title span {
     display: inline-block;
     font-family: "TT Trailers Trial Black";
-    color: #fff;
+    color: #ffffff;
     -webkit-text-stroke-width: .03em;
     -webkit-text-stroke-color: #000;
     text-shadow: 0 .05em 0 #000;
@@ -3255,7 +3256,7 @@ span.orange {
 }
 
 .bottom-how-to-buy__button.active {
-    background-color: #0052fe
+    background-color: #f56221
 }
 
 .bottom-how-to-buy__button.active span {
@@ -4557,7 +4558,7 @@ span.orange {
         width: .875rem;
         height: .875rem;
         border-radius: 50%;
-        background-color: #0052fe;
+        background-color: #f56221;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -5159,7 +5160,7 @@ span.orange {
         left: 0;
         top: -100%;
         overflow: auto;
-        background-color: #0052fe;
+        background-color: #f56221;
         padding: 8.125rem .9375rem 1.875rem .9375rem;
         -webkit-transition: top .3s;
         transition: top .3s
@@ -5175,7 +5176,7 @@ span.orange {
         -webkit-transition: top .3s;
         transition: top .3s;
         z-index: 2;
-        background-color: #0052fe
+        background-color: #f56221
     }
 
     .menu-open .menu__body {
@@ -5201,7 +5202,7 @@ span.orange {
     .menu__link {
         border: .125rem solid #fff;
         margin-right: 0;
-        background-color: #0046fd
+        background-color: #ff9e49
     }
 
     .menu__link>span {
@@ -5219,11 +5220,11 @@ span.orange {
 
     .menu__link--mochi>span {
         color: #fff;
-        text-shadow: 0 .25rem 0 #0052fe, .0625rem .25rem 0 #0052fe, .0625rem -.0625rem 0 #0052fe, -.0625rem .0625rem 0 #0052fe, -.0625rem -.0625rem 0 #0052fe
+        text-shadow: 0 .25rem 0 #f56221, .0625rem .25rem 0 #f56221, .0625rem -.0625rem 0 #f56221, -.0625rem .0625rem 0 #f56221, -.0625rem -.0625rem 0 #f56221
     }
 
     .menu__link--dark {
-        background-color: #0046fd
+        background-color: #ff9e49
     }
 
     .icon-menu {
@@ -5245,7 +5246,7 @@ span.orange {
         border-radius: 50%;
         width: 4.1875rem;
         height: 4.1875rem;
-        background-color: #0046fd;
+        background-color: #ff9e49;
         border: .1875rem solid #fff
     }
 
@@ -5394,7 +5395,7 @@ span.orange {
     }
 
     .items__background {
-        background-color: #0046fd
+        background-color: #ff9e49
     }
 
     .items__background div {
@@ -5820,13 +5821,15 @@ span.orange {
 }
 
 @media (min-width:62em) and (max-width:112.5em) {
-    @supports (font-size:clamp(2.875rem, 1.8007425743rem + 1.7326732673vw, 3.75rem)) {
+    @supports (font-size: clamp(2.875rem, 1.8007425743rem + 1.7326732673vw, 3.75rem)) {
         .menu__link--mochi>span {
             font-size: clamp(2.875rem, 1.8007425743rem + 1.7326732673vw, 3.75rem)
         }
     }
 
-    @supports not (font-size:clamp(2.875rem, 1.8007425743rem + 1.7326732673vw, 3.75rem)) {
+    @supports not (font-size:clamp(2.875rem,
+            1.8007425743rem+1.7326732673vw,
+            3.75rem)) {
         .menu__link--mochi>span {
             font-size: calc(2.875rem + .875 * (100vw - 62rem)/ 50.5)
         }
@@ -5834,661 +5837,879 @@ span.orange {
 }
 
 @media (min-width:20em) and (max-width:80.375em) {
-    @supports (padding-top:clamp(2.5rem, 1.2577639752rem + 6.2111801242vw, 6.25rem)) {
+    @supports (padding-top: clamp(2.5rem, 1.2577639752rem + 6.2111801242vw, 6.25rem)) {
         .footer {
             padding-top: clamp(2.5rem, 1.2577639752rem + 6.2111801242vw, 6.25rem)
         }
     }
 
-    @supports not (padding-top:clamp(2.5rem, 1.2577639752rem + 6.2111801242vw, 6.25rem)) {
+    @supports not (padding-top:clamp(2.5rem,
+            1.2577639752rem+6.2111801242vw,
+            6.25rem)) {
         .footer {
             padding-top: calc(2.5rem + 3.75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(2.5rem, 1.7753623188rem + 3.6231884058vw, 4.6875rem)) {
+    @supports (padding-bottom:clamp(2.5rem,
+            1.7753623188rem+3.6231884058vw,
+            4.6875rem)) {
         .footer__top {
             padding-bottom: clamp(2.5rem, 1.7753623188rem + 3.6231884058vw, 4.6875rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(2.5rem, 1.7753623188rem + 3.6231884058vw, 4.6875rem)) {
+    @supports not (padding-bottom:clamp(2.5rem,
+            1.7753623188rem+3.6231884058vw,
+            4.6875rem)) {
         .footer__top {
             padding-bottom: calc(2.5rem + 2.1875 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports (font-size:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .footer__column-item {
             font-size: clamp(1.25rem, .8359213251rem + 2.0703933747vw, 2.5rem)
         }
     }
 
-    @supports not (font-size:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports not (font-size:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .footer__column-item {
             font-size: calc(1.25rem + 1.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(0.75rem, 0.7085921325rem + 0.2070393375vw, 0.875rem)) {
+    @supports (font-size:clamp(0.75rem,
+            0.7085921325rem+0.2070393375vw,
+            0.875rem)) {
         .footer__bottom-bottom {
             font-size: clamp(.75rem, .7085921325rem + .2070393375vw, .875rem)
         }
     }
 
-    @supports not (font-size:clamp(0.75rem, 0.7085921325rem + 0.2070393375vw, 0.875rem)) {
+    @supports not (font-size:clamp(0.75rem,
+            0.7085921325rem+0.2070393375vw,
+            0.875rem)) {
         .footer__bottom-bottom {
             font-size: calc(.75rem + .125 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .footer__email span {
             font-size: clamp(.875rem, .8335921325rem + .2070393375vw, 1rem)
         }
     }
 
-    @supports not (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports not (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .footer__email span {
             font-size: calc(.875rem + .125 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .footer__copy {
             font-size: clamp(.875rem, .8335921325rem + .2070393375vw, 1rem)
         }
     }
 
-    @supports not (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports not (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .footer__copy {
             font-size: calc(.875rem + .125 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(2.5rem, 1.6718426501rem + 4.1407867495vw, 5rem)) {
+    @supports (padding-bottom:clamp(2.5rem,
+            1.6718426501rem+4.1407867495vw,
+            5rem)) {
         .page__hero {
             padding-bottom: clamp(2.5rem, 1.6718426501rem + 4.1407867495vw, 5rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(2.5rem, 1.6718426501rem + 4.1407867495vw, 5rem)) {
+    @supports not (padding-bottom:clamp(2.5rem,
+            1.6718426501rem+4.1407867495vw,
+            5rem)) {
         .page__hero {
             padding-bottom: calc(2.5rem + 2.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(3.75rem, 2.5077639752rem + 6.2111801242vw, 7.5rem)) {
+    @supports (padding-top:clamp(3.75rem,
+            2.5077639752rem+6.2111801242vw,
+            7.5rem)) {
         .page__base {
             padding-top: clamp(3.75rem, 2.5077639752rem + 6.2111801242vw, 7.5rem)
         }
     }
 
-    @supports not (padding-top:clamp(3.75rem, 2.5077639752rem + 6.2111801242vw, 7.5rem)) {
+    @supports not (padding-top:clamp(3.75rem,
+            2.5077639752rem+6.2111801242vw,
+            7.5rem)) {
         .page__base {
             padding-top: calc(3.75rem + 3.75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(6.25rem, 5.4218426501rem + 4.1407867495vw, 8.75rem)) {
+    @supports (padding-bottom:clamp(6.25rem,
+            5.4218426501rem+4.1407867495vw,
+            8.75rem)) {
         .page__base {
             padding-bottom: clamp(6.25rem, 5.4218426501rem + 4.1407867495vw, 8.75rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(6.25rem, 5.4218426501rem + 4.1407867495vw, 8.75rem)) {
+    @supports not (padding-bottom:clamp(6.25rem,
+            5.4218426501rem+4.1407867495vw,
+            8.75rem)) {
         .page__base {
             padding-bottom: calc(6.25rem + 2.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(5rem, 2.5155279503rem + 12.4223602484vw, 12.5rem)) {
+    @supports (padding-top:clamp(5rem,
+            2.5155279503rem+12.4223602484vw,
+            12.5rem)) {
         .page__items {
             padding-top: clamp(5rem, 2.5155279503rem + 12.4223602484vw, 12.5rem)
         }
     }
 
-    @supports not (padding-top:clamp(5rem, 2.5155279503rem + 12.4223602484vw, 12.5rem)) {
+    @supports not (padding-top:clamp(5rem,
+            2.5155279503rem+12.4223602484vw,
+            12.5rem)) {
         .page__items {
             padding-top: calc(5rem + 7.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(3.75rem, 0.8514492754rem + 14.4927536232vw, 12.5rem)) {
+    @supports (padding-bottom:clamp(3.75rem,
+            0.8514492754rem+14.4927536232vw,
+            12.5rem)) {
         .page__items {
             padding-bottom: clamp(3.75rem, .8514492754rem + 14.4927536232vw, 12.5rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(3.75rem, 0.8514492754rem + 14.4927536232vw, 12.5rem)) {
+    @supports not (padding-bottom:clamp(3.75rem,
+            0.8514492754rem+14.4927536232vw,
+            12.5rem)) {
         .page__items {
             padding-bottom: calc(3.75rem + 8.75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(3.75rem, 2.9218426501rem + 4.1407867495vw, 6.25rem)) {
+    @supports (padding-top:clamp(3.75rem,
+            2.9218426501rem+4.1407867495vw,
+            6.25rem)) {
         .page__road-map {
             padding-top: clamp(3.75rem, 2.9218426501rem + 4.1407867495vw, 6.25rem)
         }
     }
 
-    @supports not (padding-top:clamp(3.75rem, 2.9218426501rem + 4.1407867495vw, 6.25rem)) {
+    @supports not (padding-top:clamp(3.75rem,
+            2.9218426501rem+4.1407867495vw,
+            6.25rem)) {
         .page__road-map {
             padding-top: calc(3.75rem + 2.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(2.5rem, 0.8436853002rem + 8.281573499vw, 7.5rem)) {
+    @supports (padding-bottom:clamp(2.5rem,
+            0.8436853002rem+8.281573499vw,
+            7.5rem)) {
         .page__road-map {
             padding-bottom: clamp(2.5rem, .8436853002rem + 8.281573499vw, 7.5rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(2.5rem, 0.8436853002rem + 8.281573499vw, 7.5rem)) {
+    @supports not (padding-bottom:clamp(2.5rem,
+            0.8436853002rem+8.281573499vw,
+            7.5rem)) {
         .page__road-map {
             padding-bottom: calc(2.5rem + 5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(3.75rem, 2.9218426501rem + 4.1407867495vw, 6.25rem)) {
+    @supports (padding-top:clamp(3.75rem,
+            2.9218426501rem+4.1407867495vw,
+            6.25rem)) {
         .page__join {
             padding-top: clamp(3.75rem, 2.9218426501rem + 4.1407867495vw, 6.25rem)
         }
     }
 
-    @supports not (padding-top:clamp(3.75rem, 2.9218426501rem + 4.1407867495vw, 6.25rem)) {
+    @supports not (padding-top:clamp(3.75rem,
+            2.9218426501rem+4.1407867495vw,
+            6.25rem)) {
         .page__join {
             padding-top: calc(3.75rem + 2.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(3.75rem, 1.6796066253rem + 10.3519668737vw, 10rem)) {
+    @supports (padding-bottom:clamp(3.75rem,
+            1.6796066253rem+10.3519668737vw,
+            10rem)) {
         .page__join {
             padding-bottom: clamp(3.75rem, 1.6796066253rem + 10.3519668737vw, 10rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(3.75rem, 1.6796066253rem + 10.3519668737vw, 10rem)) {
+    @supports not (padding-bottom:clamp(3.75rem,
+            1.6796066253rem+10.3519668737vw,
+            10rem)) {
         .page__join {
             padding-bottom: calc(3.75rem + 6.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(3.125rem, 2.9800724638rem + 0.7246376812vw, 3.5625rem)) {
+    @supports (margin-bottom:clamp(3.125rem,
+            2.9800724638rem+0.7246376812vw,
+            3.5625rem)) {
         .hero__title {
             margin-bottom: clamp(3.125rem, 2.9800724638rem + .7246376812vw, 3.5625rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(3.125rem, 2.9800724638rem + 0.7246376812vw, 3.5625rem)) {
+    @supports not (margin-bottom:clamp(3.125rem,
+            2.9800724638rem+0.7246376812vw,
+            3.5625rem)) {
         .hero__title {
             margin-bottom: calc(3.125rem + .4375 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(5.625rem, 0.9045031056rem + 23.602484472vw, 19.875rem)) {
+    @supports (font-size:clamp(5.625rem,
+            0.9045031056rem+23.602484472vw,
+            19.875rem)) {
         .hero__title>p span {
             font-size: clamp(5.625rem, .9045031056rem + 23.602484472vw, 19.875rem)
         }
     }
 
-    @supports not (font-size:clamp(5.625rem, 0.9045031056rem + 23.602484472vw, 19.875rem)) {
+    @supports not (font-size:clamp(5.625rem,
+            0.9045031056rem+23.602484472vw,
+            19.875rem)) {
         .hero__title>p span {
             font-size: calc(5.625rem + 14.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .hero__bottom-text p:nth-child(1) {
             font-size: clamp(1rem, .917184265rem + .4140786749vw, 1.25rem)
         }
     }
 
-    @supports not (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports not (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .hero__bottom-text p:nth-child(1) {
             font-size: calc(1rem + .25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .hero__bottom-text p:nth-child(2) {
             font-size: clamp(1rem, .917184265rem + .4140786749vw, 1.25rem)
         }
     }
 
-    @supports not (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports not (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .hero__bottom-text p:nth-child(2) {
             font-size: calc(1rem + .25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports (padding-top:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .content-buy-mochi__title {
             padding-top: clamp(1.25rem, .8359213251rem + 2.0703933747vw, 2.5rem)
         }
     }
 
-    @supports not (padding-top:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports not (padding-top:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .content-buy-mochi__title {
             padding-top: calc(1.25rem + 1.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports (padding-bottom:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .content-buy-mochi__title {
             padding-bottom: clamp(1.25rem, .8359213251rem + 2.0703933747vw, 2.5rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports not (padding-bottom:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .content-buy-mochi__title {
             padding-bottom: calc(1.25rem + 1.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(2.375rem, 2.04373706rem + 1.6563146998vw, 3.375rem)) {
+    @supports (font-size:clamp(2.375rem,
+            2.04373706rem+1.6563146998vw,
+            3.375rem)) {
         .item-buy-mochi__title span {
             font-size: clamp(2.375rem, 2.04373706rem + 1.6563146998vw, 3.375rem)
         }
     }
 
-    @supports not (font-size:clamp(2.375rem, 2.04373706rem + 1.6563146998vw, 3.375rem)) {
+    @supports not (font-size:clamp(2.375rem,
+            2.04373706rem+1.6563146998vw,
+            3.375rem)) {
         .item-buy-mochi__title span {
             font-size: calc(2.375rem + 1 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .item-buy-mochi__text {
             font-size: clamp(1rem, .917184265rem + .4140786749vw, 1.25rem)
         }
     }
 
-    @supports not (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports not (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .item-buy-mochi__text {
             font-size: calc(1rem + .25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(1.875rem, 0.6327639752rem + 6.2111801242vw, 5.625rem)) {
+    @supports (margin-bottom:clamp(1.875rem,
+            0.6327639752rem+6.2111801242vw,
+            5.625rem)) {
         .base__header {
             margin-bottom: clamp(1.875rem, .6327639752rem + 6.2111801242vw, 5.625rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(1.875rem, 0.6327639752rem + 6.2111801242vw, 5.625rem)) {
+    @supports not (margin-bottom:clamp(1.875rem,
+            0.6327639752rem+6.2111801242vw,
+            5.625rem)) {
         .base__header {
             margin-bottom: calc(1.875rem + 3.75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(5.5rem, 4.0300207039rem + 7.3498964803vw, 9.9375rem)) {
+    @supports (font-size:clamp(5.5rem,
+            4.0300207039rem+7.3498964803vw,
+            9.9375rem)) {
         .base__header-title span {
             font-size: clamp(5.5rem, 4.0300207039rem + 7.3498964803vw, 9.9375rem)
         }
     }
 
-    @supports not (font-size:clamp(5.5rem, 4.0300207039rem + 7.3498964803vw, 9.9375rem)) {
+    @supports not (font-size:clamp(5.5rem,
+            4.0300207039rem+7.3498964803vw,
+            9.9375rem)) {
         .base__header-title span {
             font-size: calc(5.5rem + 4.4375 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(2.25rem, 1.8359213251rem + 2.0703933747vw, 3.5rem)) {
+    @supports (font-size:clamp(2.25rem,
+            1.8359213251rem+2.0703933747vw,
+            3.5rem)) {
         .base__header-label {
             font-size: clamp(2.25rem, 1.8359213251rem + 2.0703933747vw, 3.5rem)
         }
     }
 
-    @supports not (font-size:clamp(2.25rem, 1.8359213251rem + 2.0703933747vw, 3.5rem)) {
+    @supports not (font-size:clamp(2.25rem,
+            1.8359213251rem+2.0703933747vw,
+            3.5rem)) {
         .base__header-label {
             font-size: calc(2.25rem + 1.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (row-gap:clamp(1.875rem, 1.4609213251rem + 2.0703933747vw, 3.125rem)) {
+    @supports (row-gap:clamp(1.875rem,
+            1.4609213251rem+2.0703933747vw,
+            3.125rem)) {
         .base__items {
             row-gap: clamp(1.875rem, 1.4609213251rem + 2.0703933747vw, 3.125rem)
         }
     }
 
-    @supports not (row-gap:clamp(1.875rem, 1.4609213251rem + 2.0703933747vw, 3.125rem)) {
+    @supports not (row-gap:clamp(1.875rem,
+            1.4609213251rem+2.0703933747vw,
+            3.125rem)) {
         .base__items {
             row-gap: calc(1.875rem + 1.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding:clamp(0.9375rem, 0.7511645963rem + 0.9316770186vw, 1.5rem)) {
+    @supports (padding:clamp(0.9375rem,
+            0.7511645963rem+0.9316770186vw,
+            1.5rem)) {
         .item-items {
             padding: clamp(.9375rem, .7511645963rem + .9316770186vw, 1.5rem)
         }
     }
 
-    @supports not (padding:clamp(0.9375rem, 0.7511645963rem + 0.9316770186vw, 1.5rem)) {
+    @supports not (padding:clamp(0.9375rem,
+            0.7511645963rem+0.9316770186vw,
+            1.5rem)) {
         .item-items {
             padding: calc(.9375rem + .5625 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(1.25rem, 1.001552795rem + 1.2422360248vw, 2rem)) {
+    @supports (margin-bottom:clamp(1.25rem,
+            1.001552795rem+1.2422360248vw,
+            2rem)) {
         .item-items__title {
             margin-bottom: clamp(1.25rem, 1.001552795rem + 1.2422360248vw, 2rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(1.25rem, 1.001552795rem + 1.2422360248vw, 2rem)) {
+    @supports not (margin-bottom:clamp(1.25rem,
+            1.001552795rem+1.2422360248vw,
+            2rem)) {
         .item-items__title {
             margin-bottom: calc(1.25rem + .75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(2.125rem, 1.8351449275rem + 1.4492753623vw, 3rem)) {
+    @supports (font-size:clamp(2.125rem,
+            1.8351449275rem+1.4492753623vw,
+            3rem)) {
         .item-items__title span {
             font-size: clamp(2.125rem, 1.8351449275rem + 1.4492753623vw, 3rem)
         }
     }
 
-    @supports not (font-size:clamp(2.125rem, 1.8351449275rem + 1.4492753623vw, 3rem)) {
+    @supports not (font-size:clamp(2.125rem,
+            1.8351449275rem+1.4492753623vw,
+            3rem)) {
         .item-items__title span {
             font-size: calc(2.125rem + .875 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .item-items__text {
             font-size: clamp(1rem, .917184265rem + .4140786749vw, 1.25rem)
         }
     }
 
-    @supports not (font-size:clamp(1rem, 0.917184265rem + 0.4140786749vw, 1.25rem)) {
+    @supports not (font-size:clamp(1rem,
+            0.917184265rem+0.4140786749vw,
+            1.25rem)) {
         .item-items__text {
             font-size: calc(1rem + .25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(3.75rem, 1.2655279503rem + 12.4223602484vw, 11.25rem)) {
+    @supports (margin-bottom:clamp(3.75rem,
+            1.2655279503rem+12.4223602484vw,
+            11.25rem)) {
         .how-to-buy__top {
             margin-bottom: clamp(3.75rem, 1.2655279503rem + 12.4223602484vw, 11.25rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(3.75rem, 1.2655279503rem + 12.4223602484vw, 11.25rem)) {
+    @supports not (margin-bottom:clamp(3.75rem,
+            1.2655279503rem+12.4223602484vw,
+            11.25rem)) {
         .how-to-buy__top {
             margin-bottom: calc(3.75rem + 7.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(2.5rem, 1.2577639752rem + 6.2111801242vw, 6.25rem)) {
+    @supports (margin-bottom:clamp(2.5rem,
+            1.2577639752rem+6.2111801242vw,
+            6.25rem)) {
         .top-how-to-buy__buttons {
             margin-bottom: clamp(2.5rem, 1.2577639752rem + 6.2111801242vw, 6.25rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(2.5rem, 1.2577639752rem + 6.2111801242vw, 6.25rem)) {
+    @supports not (margin-bottom:clamp(2.5rem,
+            1.2577639752rem+6.2111801242vw,
+            6.25rem)) {
         .top-how-to-buy__buttons {
             margin-bottom: calc(2.5rem + 3.75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(0.5rem, 0.33436853rem + 0.8281573499vw, 1rem)) {
+    @supports (padding-top:clamp(0.5rem,
+            0.33436853rem+0.8281573499vw,
+            1rem)) {
         .top-how-to-buy__button {
             padding-top: clamp(.5rem, .33436853rem + .8281573499vw, 1rem)
         }
     }
 
-    @supports not (padding-top:clamp(0.5rem, 0.33436853rem + 0.8281573499vw, 1rem)) {
+    @supports not (padding-top:clamp(0.5rem,
+            0.33436853rem+0.8281573499vw,
+            1rem)) {
         .top-how-to-buy__button {
             padding-top: calc(.5rem + .5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(0.5rem, 0.33436853rem + 0.8281573499vw, 1rem)) {
+    @supports (padding-bottom:clamp(0.5rem,
+            0.33436853rem+0.8281573499vw,
+            1rem)) {
         .top-how-to-buy__button {
             padding-bottom: clamp(.5rem, .33436853rem + .8281573499vw, 1rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(0.5rem, 0.33436853rem + 0.8281573499vw, 1rem)) {
+    @supports not (padding-bottom:clamp(0.5rem,
+            0.33436853rem+0.8281573499vw,
+            1rem)) {
         .top-how-to-buy__button {
             padding-bottom: calc(.5rem + .5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-left:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports (padding-left:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .top-how-to-buy__button {
             padding-left: clamp(.75rem, .501552795rem + 1.2422360248vw, 1.5rem)
         }
     }
 
-    @supports not (padding-left:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports not (padding-left:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .top-how-to-buy__button {
             padding-left: calc(.75rem + .75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-right:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports (padding-right:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .top-how-to-buy__button {
             padding-right: clamp(.75rem, .501552795rem + 1.2422360248vw, 1.5rem)
         }
     }
 
-    @supports not (padding-right:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports not (padding-right:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .top-how-to-buy__button {
             padding-right: calc(.75rem + .75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(1.375rem, 0.7124741201rem + 3.3126293996vw, 3.375rem)) {
+    @supports (font-size:clamp(1.375rem,
+            0.7124741201rem+3.3126293996vw,
+            3.375rem)) {
         .top-how-to-buy__button span {
             font-size: clamp(1.375rem, .7124741201rem + 3.3126293996vw, 3.375rem)
         }
     }
 
-    @supports not (font-size:clamp(1.375rem, 0.7124741201rem + 3.3126293996vw, 3.375rem)) {
+    @supports not (font-size:clamp(1.375rem,
+            0.7124741201rem+3.3126293996vw,
+            3.375rem)) {
         .top-how-to-buy__button span {
             font-size: calc(1.375rem + 2 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(1.5625rem, 1.2519409938rem + 1.5527950311vw, 2.5rem)) {
+    @supports (padding-top:clamp(1.5625rem,
+            1.2519409938rem+1.5527950311vw,
+            2.5rem)) {
         .book-top-how-to-buy__item-body {
             padding-top: clamp(1.5625rem, 1.2519409938rem + 1.5527950311vw, 2.5rem)
         }
     }
 
-    @supports not (padding-top:clamp(1.5625rem, 1.2519409938rem + 1.5527950311vw, 2.5rem)) {
+    @supports not (padding-top:clamp(1.5625rem,
+            1.2519409938rem+1.5527950311vw,
+            2.5rem)) {
         .book-top-how-to-buy__item-body {
             padding-top: calc(1.5625rem + .9375 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(1.5625rem, 1.2519409938rem + 1.5527950311vw, 2.5rem)) {
+    @supports (padding-bottom:clamp(1.5625rem,
+            1.2519409938rem+1.5527950311vw,
+            2.5rem)) {
         .book-top-how-to-buy__item-body {
             padding-bottom: clamp(1.5625rem, 1.2519409938rem + 1.5527950311vw, 2.5rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(1.5625rem, 1.2519409938rem + 1.5527950311vw, 2.5rem)) {
+    @supports not (padding-bottom:clamp(1.5625rem,
+            1.2519409938rem+1.5527950311vw,
+            2.5rem)) {
         .book-top-how-to-buy__item-body {
             padding-bottom: calc(1.5625rem + .9375 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-right:clamp(0.9375rem, 0.0058229814rem + 4.6583850932vw, 3.75rem)) {
+    @supports (padding-right:clamp(0.9375rem,
+            0.0058229814rem+4.6583850932vw,
+            3.75rem)) {
         .book-top-how-to-buy__item-body {
             padding-right: clamp(.9375rem, .0058229814rem + 4.6583850932vw, 3.75rem)
         }
     }
 
-    @supports not (padding-right:clamp(0.9375rem, 0.0058229814rem + 4.6583850932vw, 3.75rem)) {
+    @supports not (padding-right:clamp(0.9375rem,
+            0.0058229814rem+4.6583850932vw,
+            3.75rem)) {
         .book-top-how-to-buy__item-body {
             padding-right: calc(.9375rem + 2.8125 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-left:clamp(0.9375rem, 0.0058229814rem + 4.6583850932vw, 3.75rem)) {
+    @supports (padding-left:clamp(0.9375rem,
+            0.0058229814rem+4.6583850932vw,
+            3.75rem)) {
         .book-top-how-to-buy__item-body {
             padding-left: clamp(.9375rem, .0058229814rem + 4.6583850932vw, 3.75rem)
         }
     }
 
-    @supports not (padding-left:clamp(0.9375rem, 0.0058229814rem + 4.6583850932vw, 3.75rem)) {
+    @supports not (padding-left:clamp(0.9375rem,
+            0.0058229814rem+4.6583850932vw,
+            3.75rem)) {
         .book-top-how-to-buy__item-body {
             padding-left: calc(.9375rem + 2.8125 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(2rem, 1.5445134576rem + 2.2774327122vw, 3.375rem)) {
+    @supports (font-size:clamp(2rem,
+            1.5445134576rem+2.2774327122vw,
+            3.375rem)) {
         .book-top-how-to-buy__item-title {
             font-size: clamp(2rem, 1.5445134576rem + 2.2774327122vw, 3.375rem)
         }
     }
 
-    @supports not (font-size:clamp(2rem, 1.5445134576rem + 2.2774327122vw, 3.375rem)) {
+    @supports not (font-size:clamp(2rem,
+            1.5445134576rem+2.2774327122vw,
+            3.375rem)) {
         .book-top-how-to-buy__item-title {
             font-size: calc(2rem + 1.375 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(0.9375rem, 0.5441252588rem + 1.966873706vw, 2.125rem)) {
+    @supports (margin-bottom:clamp(0.9375rem,
+            0.5441252588rem+1.966873706vw,
+            2.125rem)) {
         .book-top-how-to-buy__item-title {
             margin-bottom: clamp(.9375rem, .5441252588rem + 1.966873706vw, 2.125rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(0.9375rem, 0.5441252588rem + 1.966873706vw, 2.125rem)) {
+    @supports not (margin-bottom:clamp(0.9375rem,
+            0.5441252588rem+1.966873706vw,
+            2.125rem)) {
         .book-top-how-to-buy__item-title {
             margin-bottom: calc(.9375rem + 1.1875 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(0.875rem, 0.7714803313rem + 0.5175983437vw, 1.1875rem)) {
+    @supports (font-size:clamp(0.875rem,
+            0.7714803313rem+0.5175983437vw,
+            1.1875rem)) {
         .book-top-how-to-buy__item-text p {
             font-size: clamp(.875rem, .7714803313rem + .5175983437vw, 1.1875rem)
         }
     }
 
-    @supports not (font-size:clamp(0.875rem, 0.7714803313rem + 0.5175983437vw, 1.1875rem)) {
+    @supports not (font-size:clamp(0.875rem,
+            0.7714803313rem+0.5175983437vw,
+            1.1875rem)) {
         .book-top-how-to-buy__item-text p {
             font-size: calc(.875rem + .3125 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .book-top-how-to-buy__item-label {
             font-size: clamp(.875rem, .8335921325rem + .2070393375vw, 1rem)
         }
     }
 
-    @supports not (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports not (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .book-top-how-to-buy__item-label {
             font-size: calc(.875rem + .125 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (left:clamp(2.5rem, 1.6718426501rem + 4.1407867495vw, 5rem)) {
+    @supports (left:clamp(2.5rem,
+            1.6718426501rem+4.1407867495vw,
+            5rem)) {
         .book-top-how-to-buy__item-first-page-lables {
             left: clamp(2.5rem, 1.6718426501rem + 4.1407867495vw, 5rem)
         }
     }
 
-    @supports not (left:clamp(2.5rem, 1.6718426501rem + 4.1407867495vw, 5rem)) {
+    @supports not (left:clamp(2.5rem,
+            1.6718426501rem+4.1407867495vw,
+            5rem)) {
         .book-top-how-to-buy__item-first-page-lables {
             left: calc(2.5rem + 2.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-left:clamp(1.25rem, 0.0077639752rem + 6.2111801242vw, 5rem)) {
+    @supports (padding-left:clamp(1.25rem,
+            0.0077639752rem+6.2111801242vw,
+            5rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-left: clamp(1.25rem, .0077639752rem + 6.2111801242vw, 5rem)
         }
     }
 
-    @supports not (padding-left:clamp(1.25rem, 0.0077639752rem + 6.2111801242vw, 5rem)) {
+    @supports not (padding-left:clamp(1.25rem,
+            0.0077639752rem+6.2111801242vw,
+            5rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-left: calc(1.25rem + 3.75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-right:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports (padding-right:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-right: clamp(1.25rem, .8359213251rem + 2.0703933747vw, 2.5rem)
         }
     }
 
-    @supports not (padding-right:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports not (padding-right:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-right: calc(1.25rem + 1.25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(1.25rem, 0.0077639752rem + 6.2111801242vw, 5rem)) {
+    @supports (padding-bottom:clamp(1.25rem,
+            0.0077639752rem+6.2111801242vw,
+            5rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-bottom: clamp(1.25rem, .0077639752rem + 6.2111801242vw, 5rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(1.25rem, 0.0077639752rem + 6.2111801242vw, 5rem)) {
+    @supports not (padding-bottom:clamp(1.25rem,
+            0.0077639752rem+6.2111801242vw,
+            5rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-bottom: calc(1.25rem + 3.75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-top:clamp(3.75rem, 3.1288819876rem + 3.1055900621vw, 5.625rem)) {
+    @supports (padding-top:clamp(3.75rem,
+            3.1288819876rem+3.1055900621vw,
+            5.625rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-top: clamp(3.75rem, 3.1288819876rem + 3.1055900621vw, 5.625rem)
         }
     }
 
-    @supports not (padding-top:clamp(3.75rem, 3.1288819876rem + 3.1055900621vw, 5.625rem)) {
+    @supports not (padding-top:clamp(3.75rem,
+            3.1288819876rem+3.1055900621vw,
+            5.625rem)) {
         .book-top-how-to-buy__item-first-page-body {
             padding-top: calc(3.75rem + 1.875 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(1.625rem, 1.1281055901rem + 2.4844720497vw, 3.125rem)) {
+    @supports (font-size:clamp(1.625rem,
+            1.1281055901rem+2.4844720497vw,
+            3.125rem)) {
         .book-top-how-to-buy__item-first-page-body>p {
             font-size: clamp(1.625rem, 1.1281055901rem + 2.4844720497vw, 3.125rem)
         }
     }
 
-    @supports not (font-size:clamp(1.625rem, 1.1281055901rem + 2.4844720497vw, 3.125rem)) {
+    @supports not (font-size:clamp(1.625rem,
+            1.1281055901rem+2.4844720497vw,
+            3.125rem)) {
         .book-top-how-to-buy__item-first-page-body>p {
             font-size: calc(1.625rem + 1.5 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(1.25rem, 0.9394409938rem + 1.5527950311vw, 2.1875rem)) {
+    @supports (margin-bottom:clamp(1.25rem,
+            0.9394409938rem+1.5527950311vw,
+            2.1875rem)) {
         .book-top-how-to-buy__item-first-page-title {
             margin-bottom: clamp(1.25rem, .9394409938rem + 1.5527950311vw, 2.1875rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(1.25rem, 0.9394409938rem + 1.5527950311vw, 2.1875rem)) {
+    @supports not (margin-bottom:clamp(1.25rem,
+            0.9394409938rem+1.5527950311vw,
+            2.1875rem)) {
         .book-top-how-to-buy__item-first-page-title {
             margin-bottom: calc(1.25rem + .9375 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-bottom:clamp(2rem, 1.917184265rem + 0.4140786749vw, 2.25rem)) {
+    @supports (margin-bottom:clamp(2rem,
+            1.917184265rem+0.4140786749vw,
+            2.25rem)) {
         .bottom-how-to-buy__title {
             margin-bottom: clamp(2rem, 1.917184265rem + .4140786749vw, 2.25rem)
         }
     }
 
-    @supports not (margin-bottom:clamp(2rem, 1.917184265rem + 0.4140786749vw, 2.25rem)) {
+    @supports not (margin-bottom:clamp(2rem,
+            1.917184265rem+0.4140786749vw,
+            2.25rem)) {
         .bottom-how-to-buy__title {
             margin-bottom: calc(2rem + .25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports (padding-bottom:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .bottom-how-to-buy__items {
             padding-bottom: clamp(1.25rem, .8359213251rem + 2.0703933747vw, 2.5rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(1.25rem, 0.8359213251rem + 2.0703933747vw, 2.5rem)) {
+    @supports not (padding-bottom:clamp(1.25rem,
+            0.8359213251rem+2.0703933747vw,
+            2.5rem)) {
         .bottom-how-to-buy__items {
             padding-bottom: calc(1.25rem + 1.25 * (100vw - 20rem)/ 60.375)
         }
@@ -6510,85 +6731,113 @@ span.orange {
         }
     }
 
-    @supports (padding-top:clamp(0.75rem, 0.667184265rem + 0.4140786749vw, 1rem)) {
+    @supports (padding-top:clamp(0.75rem,
+            0.667184265rem+0.4140786749vw,
+            1rem)) {
         .bottom-how-to-buy__button {
             padding-top: clamp(.75rem, .667184265rem + .4140786749vw, 1rem)
         }
     }
 
-    @supports not (padding-top:clamp(0.75rem, 0.667184265rem + 0.4140786749vw, 1rem)) {
+    @supports not (padding-top:clamp(0.75rem,
+            0.667184265rem+0.4140786749vw,
+            1rem)) {
         .bottom-how-to-buy__button {
             padding-top: calc(.75rem + .25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-bottom:clamp(0.75rem, 0.667184265rem + 0.4140786749vw, 1rem)) {
+    @supports (padding-bottom:clamp(0.75rem,
+            0.667184265rem+0.4140786749vw,
+            1rem)) {
         .bottom-how-to-buy__button {
             padding-bottom: clamp(.75rem, .667184265rem + .4140786749vw, 1rem)
         }
     }
 
-    @supports not (padding-bottom:clamp(0.75rem, 0.667184265rem + 0.4140786749vw, 1rem)) {
+    @supports not (padding-bottom:clamp(0.75rem,
+            0.667184265rem+0.4140786749vw,
+            1rem)) {
         .bottom-how-to-buy__button {
             padding-bottom: calc(.75rem + .25 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-left:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports (padding-left:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .bottom-how-to-buy__button {
             padding-left: clamp(.75rem, .501552795rem + 1.2422360248vw, 1.5rem)
         }
     }
 
-    @supports not (padding-left:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports not (padding-left:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .bottom-how-to-buy__button {
             padding-left: calc(.75rem + .75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (padding-right:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports (padding-right:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .bottom-how-to-buy__button {
             padding-right: clamp(.75rem, .501552795rem + 1.2422360248vw, 1.5rem)
         }
     }
 
-    @supports not (padding-right:clamp(0.75rem, 0.501552795rem + 1.2422360248vw, 1.5rem)) {
+    @supports not (padding-right:clamp(0.75rem,
+            0.501552795rem+1.2422360248vw,
+            1.5rem)) {
         .bottom-how-to-buy__button {
             padding-right: calc(.75rem + .75 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(4.125rem, -0.4091614907rem + 22.6708074534vw, 17.8125rem)) {
+    @supports (font-size:clamp(4.125rem,
+            -0.4091614907rem+22.6708074534vw,
+            17.8125rem)) {
         .road-map__title span {
             font-size: clamp(4.125rem, -.4091614907rem + 22.6708074534vw, 17.8125rem)
         }
     }
 
-    @supports not (font-size:clamp(4.125rem, -0.4091614907rem + 22.6708074534vw, 17.8125rem)) {
+    @supports not (font-size:clamp(4.125rem,
+            -0.4091614907rem+22.6708074534vw,
+            17.8125rem)) {
         .road-map__title span {
             font-size: calc(4.125rem + 13.6875 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (margin-top:clamp(1.875rem, 1.5644409938rem + 1.5527950311vw, 2.8125rem)) {
+    @supports (margin-top:clamp(1.875rem,
+            1.5644409938rem+1.5527950311vw,
+            2.8125rem)) {
         .road-map__bottom-button {
             margin-top: clamp(1.875rem, 1.5644409938rem + 1.5527950311vw, 2.8125rem)
         }
     }
 
-    @supports not (margin-top:clamp(1.875rem, 1.5644409938rem + 1.5527950311vw, 2.8125rem)) {
+    @supports not (margin-top:clamp(1.875rem,
+            1.5644409938rem+1.5527950311vw,
+            2.8125rem)) {
         .road-map__bottom-button {
             margin-top: calc(1.875rem + .9375 * (100vw - 20rem)/ 60.375)
         }
     }
 
-    @supports (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .item-steps-road-map__text p {
             font-size: clamp(.875rem, .8335921325rem + .2070393375vw, 1rem)
         }
     }
 
-    @supports not (font-size:clamp(0.875rem, 0.8335921325rem + 0.2070393375vw, 1rem)) {
+    @supports not (font-size:clamp(0.875rem,
+            0.8335921325rem+0.2070393375vw,
+            1rem)) {
         .item-steps-road-map__text p {
             font-size: calc(.875rem + .125 * (100vw - 20rem)/ 60.375)
         }
@@ -6596,25 +6845,31 @@ span.orange {
 }
 
 @media (min-width:62em) and (max-width:80.375em) {
-    @supports (font-size:clamp(4rem, -3.5918367347rem + 12.2448979592vw, 6.25rem)) {
+    @supports (font-size: clamp(4rem, -3.5918367347rem + 12.2448979592vw, 6.25rem)) {
         .content-buy-mochi__title span {
             font-size: clamp(4rem, -3.5918367347rem + 12.2448979592vw, 6.25rem)
         }
     }
 
-    @supports not (font-size:clamp(4rem, -3.5918367347rem + 12.2448979592vw, 6.25rem)) {
+    @supports not (font-size:clamp(4rem,
+            -3.5918367347rem+12.2448979592vw,
+            6.25rem)) {
         .content-buy-mochi__title span {
             font-size: calc(4rem + 2.25 * (100vw - 62rem)/ 18.375)
         }
     }
 
-    @supports (left:clamp(-1.25rem, 20.6207482993rem + -27.2108843537vw, 3.75rem)) {
+    @supports (left:clamp(-1.25rem,
+            20.6207482993rem+-27.2108843537vw,
+            3.75rem)) {
         .content-buy-mochi__title span {
             left: clamp(-1.25rem, 20.6207482993rem + -27.2108843537vw, 3.75rem)
         }
     }
 
-    @supports not (left:clamp(-1.25rem, 20.6207482993rem + -27.2108843537vw, 3.75rem)) {
+    @supports not (left:clamp(-1.25rem,
+            20.6207482993rem+-27.2108843537vw,
+            3.75rem)) {
         .content-buy-mochi__title span {
             left: calc(3.75rem + -5 * (100vw - 62rem)/ 18.375)
         }
@@ -6622,25 +6877,31 @@ span.orange {
 }
 
 @media (min-width:20em) and (max-width:61.99875em) {
-    @supports (font-size:clamp(4rem, 3.2261674455rem + 3.8691627727vw, 5.625rem)) {
+    @supports (font-size: clamp(4rem, 3.2261674455rem + 3.8691627727vw, 5.625rem)) {
         .content-buy-mochi__title span {
             font-size: clamp(4rem, 3.2261674455rem + 3.8691627727vw, 5.625rem)
         }
     }
 
-    @supports not (font-size:clamp(4rem, 3.2261674455rem + 3.8691627727vw, 5.625rem)) {
+    @supports not (font-size:clamp(4rem,
+            3.2261674455rem+3.8691627727vw,
+            5.625rem)) {
         .content-buy-mochi__title span {
             font-size: calc(4rem + 1.625 * (100vw - 20rem)/ 41.99875)
         }
     }
 
-    @supports (font-size:clamp(3rem, 2.3452186077rem + 3.2739069615vw, 4.375rem)) {
+    @supports (font-size:clamp(3rem,
+            2.3452186077rem+3.2739069615vw,
+            4.375rem)) {
         .bottom-how-to-buy__title span {
             font-size: clamp(3rem, 2.3452186077rem + 3.2739069615vw, 4.375rem)
         }
     }
 
-    @supports not (font-size:clamp(3rem, 2.3452186077rem + 3.2739069615vw, 4.375rem)) {
+    @supports not (font-size:clamp(3rem,
+            2.3452186077rem+3.2739069615vw,
+            4.375rem)) {
         .bottom-how-to-buy__title span {
             font-size: calc(3rem + 1.375 * (100vw - 20rem)/ 41.99875)
         }
@@ -6648,13 +6909,15 @@ span.orange {
 }
 
 @media (min-width:20em) and (max-width:43.75em) {
-    @supports (font-size:clamp(1rem, 0.7894736842rem + 1.0526315789vw, 1.25rem)) {
+    @supports (font-size: clamp(1rem, 0.7894736842rem + 1.0526315789vw, 1.25rem)) {
         .item-base__text {
             font-size: clamp(1rem, .7894736842rem + 1.0526315789vw, 1.25rem)
         }
     }
 
-    @supports not (font-size:clamp(1rem, 0.7894736842rem + 1.0526315789vw, 1.25rem)) {
+    @supports not (font-size:clamp(1rem,
+            0.7894736842rem+1.0526315789vw,
+            1.25rem)) {
         .item-base__text {
             font-size: calc(1rem + .25 * (100vw - 20rem)/ 23.75)
         }
@@ -6662,13 +6925,15 @@ span.orange {
 }
 
 @media (min-width:20em) and (max-width:62em) {
-    @supports (width:clamp(27.5rem, 22.2023809524rem + 26.4880952381vw, 38.625rem)) {
+    @supports (width: clamp(27.5rem, 22.2023809524rem + 26.4880952381vw, 38.625rem)) {
         .line__cloud {
             width: clamp(27.5rem, 22.2023809524rem + 26.4880952381vw, 38.625rem)
         }
     }
 
-    @supports not (width:clamp(27.5rem, 22.2023809524rem + 26.4880952381vw, 38.625rem)) {
+    @supports not (width:clamp(27.5rem,
+            22.2023809524rem+26.4880952381vw,
+            38.625rem)) {
         .line__cloud {
             width: calc(27.5rem + 11.125 * (100vw - 20rem)/ 42)
         }
@@ -6676,25 +6941,31 @@ span.orange {
 }
 
 @media (min-width:30em) and (max-width:80.375em) {
-    @supports (font-size:clamp(1.375rem, 1.0772332506rem + 0.9925558313vw, 1.875rem)) {
+    @supports (font-size: clamp(1.375rem, 1.0772332506rem + 0.9925558313vw, 1.875rem)) {
         .line__cloud-title {
             font-size: clamp(1.375rem, 1.0772332506rem + .9925558313vw, 1.875rem)
         }
     }
 
-    @supports not (font-size:clamp(1.375rem, 1.0772332506rem + 0.9925558313vw, 1.875rem)) {
+    @supports not (font-size:clamp(1.375rem,
+            1.0772332506rem+0.9925558313vw,
+            1.875rem)) {
         .line__cloud-title {
             font-size: calc(1.375rem + .5 * (100vw - 30rem)/ 50.375)
         }
     }
 
-    @supports (font-size:clamp(0.75rem, 0.6011166253rem + 0.4962779156vw, 1rem)) {
+    @supports (font-size:clamp(0.75rem,
+            0.6011166253rem+0.4962779156vw,
+            1rem)) {
         .line__cloud-number {
             font-size: clamp(.75rem, .6011166253rem + .4962779156vw, 1rem)
         }
     }
 
-    @supports not (font-size:clamp(0.75rem, 0.6011166253rem + 0.4962779156vw, 1rem)) {
+    @supports not (font-size:clamp(0.75rem,
+            0.6011166253rem+0.4962779156vw,
+            1rem)) {
         .line__cloud-number {
             font-size: calc(.75rem + .25 * (100vw - 30rem)/ 50.375)
         }
@@ -6702,25 +6973,31 @@ span.orange {
 }
 
 @media (min-width:20em) and (max-width:29.99875em) {
-    @supports (font-size:clamp(1.375rem, 0.3748749844rem + 5.0006250781vw, 1.875rem)) {
+    @supports (font-size: clamp(1.375rem, 0.3748749844rem + 5.0006250781vw, 1.875rem)) {
         .line__cloud-title {
             font-size: clamp(1.375rem, .3748749844rem + 5.0006250781vw, 1.875rem)
         }
     }
 
-    @supports not (font-size:clamp(1.375rem, 0.3748749844rem + 5.0006250781vw, 1.875rem)) {
+    @supports not (font-size:clamp(1.375rem,
+            0.3748749844rem+5.0006250781vw,
+            1.875rem)) {
         .line__cloud-title {
             font-size: calc(1.375rem + .5 * (100vw - 20rem)/ 9.99875)
         }
     }
 
-    @supports (font-size:clamp(0.6875rem, 0.3124531191rem + 1.8752344043vw, 0.875rem)) {
+    @supports (font-size:clamp(0.6875rem,
+            0.3124531191rem+1.8752344043vw,
+            0.875rem)) {
         .line__cloud-number {
             font-size: clamp(.6875rem, .3124531191rem + 1.8752344043vw, .875rem)
         }
     }
 
-    @supports not (font-size:clamp(0.6875rem, 0.3124531191rem + 1.8752344043vw, 0.875rem)) {
+    @supports not (font-size:clamp(0.6875rem,
+            0.3124531191rem+1.8752344043vw,
+            0.875rem)) {
         .line__cloud-number {
             font-size: calc(.6875rem + .1875 * (100vw - 20rem)/ 9.99875)
         }
@@ -6728,25 +7005,31 @@ span.orange {
 }
 
 @media (min-width:48em) and (max-width:80.375em) {
-    @supports (font-size:clamp(3rem, -1.0772200772rem + 8.4942084942vw, 5.75rem)) {
+    @supports (font-size: clamp(3rem, -1.0772200772rem + 8.4942084942vw, 5.75rem)) {
         .book-top-how-to-buy__item-first-page-title span {
             font-size: clamp(3rem, -1.0772200772rem + 8.4942084942vw, 5.75rem)
         }
     }
 
-    @supports not (font-size:clamp(3rem, -1.0772200772rem + 8.4942084942vw, 5.75rem)) {
+    @supports not (font-size:clamp(3rem,
+            -1.0772200772rem+8.4942084942vw,
+            5.75rem)) {
         .book-top-how-to-buy__item-first-page-title span {
             font-size: calc(3rem + 2.75 * (100vw - 48rem)/ 32.375)
         }
     }
 
-    @supports (font-size:clamp(1.25rem, -0.417953668rem + 3.4749034749vw, 2.375rem)) {
+    @supports (font-size:clamp(1.25rem,
+            -0.417953668rem+3.4749034749vw,
+            2.375rem)) {
         .bottom-how-to-buy__button>span {
             font-size: clamp(1.25rem, -.417953668rem + 3.4749034749vw, 2.375rem)
         }
     }
 
-    @supports not (font-size:clamp(1.25rem, -0.417953668rem + 3.4749034749vw, 2.375rem)) {
+    @supports not (font-size:clamp(1.25rem,
+            -0.417953668rem+3.4749034749vw,
+            2.375rem)) {
         .bottom-how-to-buy__button>span {
             font-size: calc(1.25rem + 1.125 * (100vw - 48rem)/ 32.375)
         }
@@ -6754,25 +7037,31 @@ span.orange {
 }
 
 @media (min-width:20em) and (max-width:47.99875em) {
-    @supports (font-size:clamp(2.875rem, 1.1784956918rem + 8.4825215411vw, 5.25rem)) {
+    @supports (font-size: clamp(2.875rem, 1.1784956918rem + 8.4825215411vw, 5.25rem)) {
         .book-top-how-to-buy__item-first-page-title span {
             font-size: clamp(2.875rem, 1.1784956918rem + 8.4825215411vw, 5.25rem)
         }
     }
 
-    @supports not (font-size:clamp(2.875rem, 1.1784956918rem + 8.4825215411vw, 5.25rem)) {
+    @supports not (font-size:clamp(2.875rem,
+            1.1784956918rem+8.4825215411vw,
+            5.25rem)) {
         .book-top-how-to-buy__item-first-page-title span {
             font-size: calc(2.875rem + 2.375 * (100vw - 20rem)/ 27.99875)
         }
     }
 
-    @supports (font-size:clamp(1.625rem, 1.0892617974rem + 2.678691013vw, 2.375rem)) {
+    @supports (font-size:clamp(1.625rem,
+            1.0892617974rem+2.678691013vw,
+            2.375rem)) {
         .bottom-how-to-buy__button>span {
             font-size: clamp(1.625rem, 1.0892617974rem + 2.678691013vw, 2.375rem)
         }
     }
 
-    @supports not (font-size:clamp(1.625rem, 1.0892617974rem + 2.678691013vw, 2.375rem)) {
+    @supports not (font-size:clamp(1.625rem,
+            1.0892617974rem+2.678691013vw,
+            2.375rem)) {
         .bottom-how-to-buy__button>span {
             font-size: calc(1.625rem + .75 * (100vw - 20rem)/ 27.99875)
         }
@@ -6780,13 +7069,15 @@ span.orange {
 }
 
 @media (min-width:61.99875em) and (max-width:80.375em) {
-    @supports (font-size:clamp(4.625rem, -0.8575096932rem + 8.8429358547vw, 6.25rem)) {
+    @supports (font-size: clamp(4.625rem, -0.8575096932rem + 8.8429358547vw, 6.25rem)) {
         .bottom-how-to-buy__title span {
             font-size: clamp(4.625rem, -.8575096932rem + 8.8429358547vw, 6.25rem)
         }
     }
 
-    @supports not (font-size:clamp(4.625rem, -0.8575096932rem + 8.8429358547vw, 6.25rem)) {
+    @supports not (font-size:clamp(4.625rem,
+            -0.8575096932rem+8.8429358547vw,
+            6.25rem)) {
         .bottom-how-to-buy__title span {
             font-size: calc(4.625rem + 1.625 * (100vw - 61.99875rem)/ 18.37625)
         }
@@ -6794,13 +7085,15 @@ span.orange {
 }
 
 @media (min-width:48.125em) and (max-width:80.375em) {
-    @supports (font-size:clamp(1.75rem, 1.003875969rem + 1.5503875969vw, 2.25rem)) {
+    @supports (font-size: clamp(1.75rem, 1.003875969rem + 1.5503875969vw, 2.25rem)) {
         .item-steps-road-map__title span {
             font-size: clamp(1.75rem, 1.003875969rem + 1.5503875969vw, 2.25rem)
         }
     }
 
-    @supports not (font-size:clamp(1.75rem, 1.003875969rem + 1.5503875969vw, 2.25rem)) {
+    @supports not (font-size:clamp(1.75rem,
+            1.003875969rem+1.5503875969vw,
+            2.25rem)) {
         .item-steps-road-map__title span {
             font-size: calc(1.75rem + .5 * (100vw - 48.125rem)/ 32.25)
         }
@@ -6808,13 +7101,15 @@ span.orange {
 }
 
 @media (min-width:20em) and (max-width:48.12375em) {
-    @supports (font-size:clamp(1.75rem, 1.3944286413rem + 1.7778567936vw, 2.25rem)) {
+    @supports (font-size: clamp(1.75rem, 1.3944286413rem + 1.7778567936vw, 2.25rem)) {
         .item-steps-road-map__title span {
             font-size: clamp(1.75rem, 1.3944286413rem + 1.7778567936vw, 2.25rem)
         }
     }
 
-    @supports not (font-size:clamp(1.75rem, 1.3944286413rem + 1.7778567936vw, 2.25rem)) {
+    @supports not (font-size:clamp(1.75rem,
+            1.3944286413rem+1.7778567936vw,
+            2.25rem)) {
         .item-steps-road-map__title span {
             font-size: calc(1.75rem + .5 * (100vw - 20rem)/ 28.12375)
         }
@@ -6829,17 +7124,17 @@ span.orange {
     }
 
     .header__logo:hover {
-        -webkit-box-shadow: inset 4px 4px 0 #0052fe, inset -4px -4px 0 #0052fe;
-        box-shadow: inset 4px 4px 0 #0052fe, inset -4px -4px 0 #0052fe
+        -webkit-box-shadow: inset 4px 4px 0 #f56221, inset -4px -4px 0 #f56221;
+        box-shadow: inset 4px 4px 0 #f56221, inset -4px -4px 0 #f56221
     }
 
     .menu__link:hover {
-        -webkit-box-shadow: inset 4px 4px 0 #0052fe, inset -4px -4px 0 #0052fe;
-        box-shadow: inset 4px 4px 0 #0052fe, inset -4px -4px 0 #0052fe
+        -webkit-box-shadow: inset 4px 4px 0 #f56221, inset -4px -4px 0 #f56221;
+        box-shadow: inset 4px 4px 0 #f56221, inset -4px -4px 0 #f56221
     }
 
     .footer__column-item:hover {
-        color: #0052fe;
+        color: #f56221;
         scale: .975
     }
 
@@ -6856,7 +7151,7 @@ span.orange {
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background-color: #0052fe
+        background-color: #f56221
     }
 
     .hero__bottom-button:hover {
@@ -6910,8 +7205,8 @@ span.orange {
     }
 
     .top-how-to-buy__button:hover {
-        -webkit-box-shadow: inset 4px 4px 0 #0052fe, inset -4px -4px 0 #0052fe;
-        box-shadow: inset 4px 4px 0 #0052fe, inset -4px -4px 0 #0052fe
+        -webkit-box-shadow: inset 4px 4px 0 #f56221, inset -4px -4px 0 #f56221;
+        box-shadow: inset 4px 4px 0 #f56221, inset -4px -4px 0 #f56221
     }
 
     .book-top-how-to-buy__item-text p>a:hover {
